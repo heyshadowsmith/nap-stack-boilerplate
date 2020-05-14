@@ -1,8 +1,15 @@
 # NAP Stack Boilerplate
 
 This is a boilerplate repository to quickly get set up using Nuxt, Apollo, and Prisma.
+A powerful stack for building Nuxt JAMStack apps powered by GraphQL from front-to-back.
 
 ![NAP Stack](https://github.com/TheShadowSmith/nap-stack/blob/master/nap-stack-logo.png "NAP Stack")
+
+This repo contains:
+- A Nuxt app with a sample CRUD app that utilizes Apollo Client for local cache and optimistic UI
+- Apollo Server
+- Prisma Client
+- Preconfigured Vercel deployment that will deploy the whole stack to Vercel's Now platform as Serverless functions
 
 ## Initialize the project
 ```
