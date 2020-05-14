@@ -2,6 +2,8 @@
 
 This is a boilerplate repository to quickly get set up using Nuxt, Apollo, and Prisma.
 
+![NAP Stack](https://github.com/TheShadowSmith/nap-stack/blob/master/nap-stack-logo.png "NAP Stack")
+
 ## Initialize the project
 ```
 git clone https://github.com/heyshadowsmith/nap-stack-boilerplate.git
