@@ -29,7 +29,9 @@ The PRISMA_ENDPOINT will be the endpoint for your Prisma Service in Prisma Cloud
 
 The PRISMA_SECRET is yours to create; the stronger the better.
 
-Now, run `npm run prisma:deploy` from the root, and Prisma will update your database and generate Prisma Client based on your `datamodel.graphql` file.
+Now, install the Prisma CLI `npm i -g prisma` and run `npm run prisma:deploy` from the Root. 
+
+This will cause Prisma to update your database and generate Prisma Client based on your `datamodel.graphql` file.
 
 ## Start the NAP Stack
 In your terminal, run `npm run apollo` from your Root to start Apollo.
