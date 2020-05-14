@@ -12,6 +12,10 @@ This repo contains:
 - Prisma Client
 - Preconfigured Vercel deployment that will deploy the whole stack to Vercel's Now platform as Serverless functions
 
+## Demos
+[Demo Nuxt App with CRUD](https://nap-stack-boilerplate.now.sh/)
+[Demo Apollo Server](https://nap-stack-boilerplate.now.sh/api)
+
 ## Initialize the project
 ```
 git clone https://github.com/heyshadowsmith/nap-stack-boilerplate.git
