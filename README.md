@@ -1,6 +1,6 @@
 # NAP Stack Boilerplate
 
-This is a boilerplate repository to quickly get set up using Nuxt, Apollo, and Prisma.
+This is a boilerplate repository to quickly get set up using Nuxt, Apollo, and Prisma 1.
 
 A powerful stack for building Nuxt JAMStack apps powered by GraphQL from front-to-back.
 
@@ -25,12 +25,12 @@ cd nuxt && npm i
 ```
 
 ## Add Prisma
-Create a Prisma Service on [Prisma Cloud](https://www.prisma.io/cloud) and then create an `.env` file in your root like the following:
+Create a Prisma Service on [Prisma 1 Cloud](https://www.prisma.io/cloud) and then create an `.env` file in your root like the following:
 ```
 PRISMA_ENDPOINT=https://eu1.prisma.sh/dummy-account/demo/dev
 PRISMA_SECRET=supersecrettext
 ```
-The PRISMA_ENDPOINT will be the endpoint for your Prisma Service in Prisma Cloud.
+The PRISMA_ENDPOINT will be the endpoint for your Prisma Service in Prisma 1 Cloud.
 
 The PRISMA_SECRET is yours to create; the stronger the better.
 
