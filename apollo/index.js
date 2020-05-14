@@ -1,4 +1,5 @@
 import { ApolloServer, gql } from 'apollo-server'
+import {} from 'dotenv/config'
 import { prisma } from '../prisma/generated/prisma-client'
 
 const typeDefs = gql`

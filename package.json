@@ -4,8 +4,7 @@
   "description": "A starter NAP Stack project created for Shadow Smith's blog post titled 'Building a JAMStack App using Nuxt, Apollo, and Prisma'.",
   "scripts": {
     "apollo": "nodemon apollo --ext js,graphql --exec babel-node",
-    "prisma:generate": "prisma generate -e .env",
-    "prisma:deploy": "prisma deploy -e .env"
+    "prisma:deploy": "prisma deploy -e .env && prisma generate -e .env"
   },
   "keywords": [],
   "author": "Shadow Smith",
@@ -17,6 +16,7 @@
     "@babel/plugin-proposal-class-properties": "^7.8.3",
     "@babel/plugin-proposal-object-rest-spread": "^7.9.6",
     "@babel/preset-env": "^7.9.6",
+    "dotenv": "^8.2.0",
     "eslint": "^6.8.0",
     "eslint-config-standard": "^14.1.1",
     "eslint-plugin-import": "^2.20.2",
