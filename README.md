@@ -14,6 +14,7 @@ This repo contains:
 
 ## Demos
 [Demo Nuxt App with CRUD](https://nap-stack-boilerplate.now.sh/)
+
 [Demo Apollo Server](https://nap-stack-boilerplate.now.sh/api)
 
 ## Initialize the project
