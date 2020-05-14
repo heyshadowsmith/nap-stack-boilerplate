@@ -1,6 +1,7 @@
 # NAP Stack Boilerplate
 
 This is a boilerplate repository to quickly get set up using Nuxt, Apollo, and Prisma.
+
 A powerful stack for building Nuxt JAMStack apps powered by GraphQL from front-to-back.
 
 ![NAP Stack](https://github.com/TheShadowSmith/nap-stack/blob/master/nap-stack-logo.png "NAP Stack")
