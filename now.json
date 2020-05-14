@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "nuxt/nuxt.config.js",
+      "use": "@nuxtjs/now-builder"
+    },
+    {
+      "src": "apollo/index.js",
+      "use": "@now/node@canary",
+      "config": {
+        "maxLambdaSize": "25mb"
+      }
+    }
+  ],
+  "build": {
+    "env": {
+      "PRISMA_ENDPOINT": "@prisma_endpoint",
+      "PRISMA_SECRET": "@prisma_secret"
+    }
+  },
+  "routes": [
+    {
+      "src": "/api",
+      "dest": "apollo/index.js"
+    }
+  ],
+  "env": {
+    "PRISMA_ENDPOINT": "@prisma_endpoint",
+    "PRISMA_SECRET": "@prisma_secret"
+  }
+}
