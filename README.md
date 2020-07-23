@@ -48,11 +48,11 @@ Create an account with Vercel and link it to your GitHub account then run `npm i
 
 After you authenticate, run the following commands to store your env variables in Vercel for your deployment.
 ```
-now secrets add prisma_endpoint YOUR_ENDPOINT
-now secrets add prisma_secret YOUR_SECRET
+vercel secrets add prisma_endpoint PRISMA_ENDPOINT
+vercel secrets add prisma_secret PRISMA_SECRET
 ```
 Delete the hidden `.git` directory in the Root to detach the repo from this repository.
 
 Rename the project and push the project to your GitHub account.
 
-After that, Vercel will automatically begin building your NAP Stack app with your Nuxt frontend located at `/` and your Apollo GraphQL API located at `/api`.
+After that, Vercel will automatically begin building your NAP Stack app with your Nuxt frontend located at `/` and your Apollo GraphQL API located at `/api` if you are using the [Vercel for GitHub](https://vercel.com/github) integration.
